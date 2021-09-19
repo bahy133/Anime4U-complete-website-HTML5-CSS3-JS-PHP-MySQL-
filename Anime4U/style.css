@@ -1,0 +1,572 @@
+body{
+    margin: 0;
+    padding: 0;
+   background-image: url("images/bg3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.mynavbar{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    opacity: 0.5;
+}
+.mynavbar li{
+    display: inline-block;
+    padding: 20px 45px;
+    margin-left: 100px;
+    box-sizing: border-box;
+    text-align: center;
+   
+}
+.mynavbar:hover{
+    opacity: 0.95;
+}
+.mynavbar li:hover{
+    background-color:#e6b800;
+    color: black;
+}
+.title:link{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: 'Seymour One';
+}
+.title:visited{
+    color: white;
+}
+.title:hover{
+    color: black;
+}
+.title:active{
+    color: white;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px black;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #e6b800;
+    border-radius: 5px;
+
+}
+::-webkit-scrollbar-thumb:active{
+    background-color: yellow;
+}
+.regForm{
+    /*border:#e6b800 3px solid;*/
+    width: 44%;
+    height: 400px;
+    margin-left: 25%;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: black 1px 1px 5px 5px;
+}
+.regForm:hover{
+    border: 1px #e6b800 solid;
+}
+.reg{
+    margin: 0 10px;
+    color: #e6b800;
+    font-weight: bolder;
+    font-family: 'Seymour One';
+    font-size: 16px;
+}
+input[type="text"], input[type="email"], input[type="password"]{
+    border-radius: 50px;
+    border: 2px solid black;
+    outline: none;
+    color: black;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+#episodes{
+    border: 2px solid black;
+    outline: none;
+    color: black;
+    margin-top: 10px;
+    padding: 0 10px;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+}
+input[type="radio"]{
+    cursor: pointer;
+}
+input[type="text"]{
+    margin-left: 20px;
+    width: 400px;
+}
+#password{
+    margin-left: 30px;
+    width: 400px;
+}
+#Cpassword{
+    width: 67%;
+}
+#Cpassid{
+    font-size: 12px;
+}
+input[type="text"]:hover{
+    border:2px #e6b800 solid;
+}
+input[type="email"]:hover{
+    border:2px #e6b800 solid;
+}
+input[type="password"]:hover{
+    border:2px #e6b800 solid;
+}
+
+.regbtn{
+    color: black;
+    background-color: #e6b800;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 210px;
+    border: 2px black solid;
+    font-family: 'Seymour One';
+}
+.regbtn:hover{
+    background-color: black;
+    color: #e6b800;
+    border: #e6b800 2px solid;
+    box-shadow: 1px 1px 5px 5px;
+
+}
+.mynavbar .account:hover{
+    background-color: black;
+}
+footer{
+    clear: left;
+    background-color: black;
+    margin-top: 20px;
+    border-top: #e6b800 5px solid;
+    position: relative;
+    z-index: 5;
+}
+.footdiv{
+    color: white;
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 25%;
+    font-family: 'Spartan';
+}
+.footdiv2{
+    
+    margin-left: 400px;
+}
+.contact{
+    background-color: black;
+    opacity: 0.5;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    z-index: 10;
+    width: 5%;
+    height: 35%;
+}
+.icons{
+    list-style-type: none;
+    margin-top: 20px;
+    padding-left: 25px;
+    width: 100%;
+}
+.contact:hover{
+    opacity: 0.9;
+}
+.fbicon:link{
+    
+    text-decoration: none;
+    color: darkblue;
+}
+.fbicon:visited{
+    color: darkblue;
+}
+.fbicon:hover{
+    color: blue;
+}
+.fbicon:active{
+    color: red;
+}
+.yticon:link{
+    
+    text-decoration: none;
+    color: darkred;
+}
+.yticon:visited{
+    color: darkred;
+}
+.yticon:hover{
+    color: red;
+}
+.yticon:active{
+    color: red;
+}
+.igicon:link{
+    
+    text-decoration: none;
+    color: darkviolet;
+}
+.igicon:visited{
+    color: darkviolet;
+}
+.igicon:hover{
+    color: violet;
+}
+.igicon:active{
+    color: violet;
+}
+.twticon:link{
+    
+    text-decoration: none;
+    color: darkcyan;
+}
+.twticon:visited{
+    color: darkcyan;
+}
+.twticon:hover{
+    color: cyan;
+}
+.twticon:active{
+    color: cyan;
+}
+.wapicon:link{
+    
+    text-decoration: none;
+    color: darkgreen;
+}
+.wapicon:visited{
+    color: darkgreen;
+}
+.wapicon:hover{
+    color: green;
+}
+.wapicon:active{
+    color: green;
+}
+.log{
+    margin-top: 171px;
+    height: 200px;
+}
+.logfooter{
+    margin-top: 100px;
+}
+#logbtn{
+    margin-left: 282px;
+}
+#slideshow{
+    border-radius: 10px;
+    opacity: 0.8;
+}
+#slideshow:hover{
+    opacity: 1;
+}
+.radio{
+    display: inline-flex;
+    align-items: center;
+    margin-left: 160px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.radio2{
+    display: inline-flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+.radio_input{
+    display: none;
+}
+.radio:hover .radio_radio{
+    background-color:#e6b800 ;
+    transition: 0.5s;
+    border: 2px solid black;
+}
+.radio2:hover .radio_radio{
+    background-color:#e6b800 ;
+    transition: 0.5s;
+    border: 2px solid black;
+}
+.radio_radio{
+    width: 1.25em;
+    height: 1.25em;
+    border: 2px solid #e6b800;
+    border-radius: 50%;
+    margin-right: 5px;
+    box-sizing: border-box;
+    padding: 2px;
+    cursor: pointer;
+}
+.radio_radio::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: #e6b800;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 1s;
+    
+}
+.radio_radio:hover{
+    background-color:#e6b800 ;
+    transition: 0.5s;
+    border: 2px solid black;
+}
+.radio_input:checked + .radio_radio::after{
+    transform: scale(1);
+}
+.radio_input:checked + .radio_radio{
+    border: 5px solid black;
+}
+.slidediv{
+    margin: 10px 0;
+    /*margin-top: 10px;*/
+    padding: 0;
+    width: 100%;
+    height: 450px;
+    background-image: url("images/3.png");
+    background-repeat: no-repeat;
+    background-position-y: -80px;
+    background-size: cover;
+    opacity: 0.5;
+    border-radius: 10px;
+}
+.slidediv:hover{
+    opacity: 1;
+}
+.silde1{
+    display: inline-flex;
+    align-items: center;
+    margin-left: 550px;
+    margin-top: 420px;
+    
+}
+.silde2{
+    display: inline-flex;
+    align-items: center;
+    
+}
+.silde3{
+    display: inline-flex;
+    align-items: center;
+  
+}
+.silde4{
+    display: inline-flex;
+    align-items: center;
+  
+}
+.slidebtn{
+    display: none;
+}
+.slide_slide{
+    width: 1.25em;
+    height: 1.25em;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-right: 5px;
+    padding: 0;
+    cursor: pointer;
+}
+.slide_slide::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: black;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 0.5s;
+}
+.slidebtn:checked + .slide_slide::after{
+    transform: scale(1);
+    transition: 0.5s;
+}
+.slide_slide:hover{
+    background-color:black ;
+    transition: 0.5s;
+    border: 8px solid black;
+}
+.Info{
+    width: 44%;
+    height: 500px;
+    margin-left: 25%;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: black 1px 1px 5px 5px;
+}
+.Info:hover{
+    border: #e6b800 1px solid;
+}
+.data{
+  margin-left: 20px;
+  margin-top: 50px;
+  color: #e6b800;
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: 'Seymour One';
+  float: left;
+}
+.infoheader{
+  color: red;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 40px;
+  font-family: 'Seymour One';
+  
+}
+.answer{
+    float: left;
+    margin-left: 10px;
+  margin-top: 40px;
+  color: red;
+  font-weight: bolder;
+  font-size: 30px;
+  font-family: 'Seymour One';
+}
+#search{
+    border: 2px #e6b800 solid;
+    background-color: black;
+    border-radius: 50px;
+    background-image: url('images/icon-search.svg');
+    background-repeat: no-repeat;
+    background-position: 6px 6px;
+    padding-left: 20px;
+}
+#search:hover{
+    border: 2px black solid;
+    background-color: white;
+}
+.searbtn{
+    color: black;
+    background-color: #e6b800;
+    border-radius: 50px;
+    border: 2px black solid;
+    font-family: 'Seymour One';
+}
+.searbtn:hover{
+    border: #e6b800 2px solid;
+    color: #e6b800;
+    background-color: black;
+    box-shadow: 1px 1px 5px 5px;
+
+}
+.searform{
+    margin-left: 100px;
+}
+.admin{
+    height: 800px;
+    
+}
+.adminbtn{
+    margin-left: 500px;
+    width: 15%;
+    
+}
+.adminbtn:hover{
+    box-shadow: 1px 1px 5px 5px;
+}
+.profilepic{
+    margin-left: 205px;
+    margin-top: 10px;
+}
+.content{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.child{
+    width: 25%;
+    height: 330px;
+    border: 3px solid black;
+    border-radius: 10%;
+    margin-left: 10px;
+    flex-grow: 0;
+    margin-top: 10px;
+    z-index: 3;
+}
+.childname{
+    text-align: center;
+    font-family: 'Spartan';
+    z-index: 3;
+    
+}
+.child:hover{
+    border: 3px solid #e6b800;
+
+}
+.animename{
+    color: #e6b800;
+    text-decoration: none;
+    font-weight: bolder;
+    z-index: 3;
+    
+}
+.animename:visited{
+    color: #e6b800;
+}
+.animename:hover{
+    color: red;
+}
+.animename:active{
+    color: black;
+}
+.fullscreen_video{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.fullscreen_video video{
+    min-width: 100%;
+    min-height: 100%;
+}
+.overlay{
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+.content{
+    z-index: 3;
+    margin-top: 20px;
+}
+ .animecontent{
+    display: flex;
+    flex-flow: row wrap;
+    z-index: 3;
+    justify-content: center;
+    width: 75%;
+}
+/*.animeEpisodes{
+    margin: 10px 10px;
+    width: 25%;
+    height: 250px;
+} */
+.ad{
+    margin-top:10px;
+    z-index: 3;
+    margin-right: 750px;
+     margin-bottom: 100px;
+}
